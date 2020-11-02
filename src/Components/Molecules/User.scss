@@ -1,0 +1,34 @@
+.user{
+  width: 100%;
+  height: 30px;
+  position: relative;
+  color: #1A1A1A;
+  user-select: none;
+  margin-bottom: 8px;
+  overflow: hidden;
+
+  .user-icon{
+    display: inline-block;
+    border-radius: 100%;
+    width: 30px;
+    height: 100%;
+    background-color: rgba(65,131,215,66);
+    
+    svg{
+      fill: white;
+      margin: 5px;
+    }
+  }
+
+  .user-info{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    margin-left: 15px;
+    padding: 5px;
+  }
+
+  .user-name{
+    font-weight: bold;
+  }
+}

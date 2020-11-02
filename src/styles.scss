@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 14px;
+
+  .app-body{
+    display: inline-block;
+    width: 100%;
+    max-width: 750px; 
+    min-height: 500px;
+    height: calc(100vh - 175px);
+  }
+}

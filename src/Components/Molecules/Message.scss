@@ -1,0 +1,48 @@
+.message-public{
+  border: 1px solid #C1C1C1;
+}
+
+.message-prive{
+  border: 1px solid #FF6E14;
+}
+
+.message{
+  width: 75%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 15%;
+  background-color: white;
+
+  .private-ribbon{
+    display: inline-block;
+    width: 100%;
+    color: #FF6E14;
+    font-weight: bold;
+
+    .private-label{
+      margin-left: 10px;
+    }
+  }
+  
+  .message-content{
+    width: 100%;
+    font-family: sans-serif;
+    margin: 10px 5px;
+  }
+
+  .message-line{
+    display: inline-block;
+    width: 100%;
+  }
+
+
+
+  .message-horodate{
+    width: 100%;
+    text-align: right;
+    font-style: italic;
+    font-size: 10px; 
+    color: #A1A1A1;
+  }
+}

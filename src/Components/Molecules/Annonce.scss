@@ -1,0 +1,60 @@
+.annonce{
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #A1A1A1;
+  width: calc(100% - 55px);
+  padding: 5px;
+  margin: 0 25px;
+  height: 80px;
+}
+
+.annonce-image{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #F1F1F1;
+  margin: 15px 10px;
+
+  svg{
+    margin: 7px;
+  }
+  
+}
+
+.annonce-content{
+  display: inline-block;
+  width: calc(100% - 80px);
+  float: right;
+
+  .annonce-info{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 8px;
+
+    .annonce-title{
+      display: inline-block;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .annonce-horodate{
+      display: inline-block;
+      float: right;
+      font-size: 12px;
+      font-style: italic;
+      color: #A1A1A1;
+    }
+  }
+
+  .annonce-text{
+    display: inline-block;
+    width: 100%;
+    overflow: auto;
+    height: 50px;
+
+    .annonce-content-line{
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}

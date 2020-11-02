@@ -1,0 +1,90 @@
+.new-message-ribbon{
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+
+  .ribbon-right{
+    display: inline-block;
+    float: right;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 40px
+  }
+
+  .new-message-to{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 40px
+  }
+}
+
+.input-msg{
+  display: inline-block;
+  width: 100%;
+  resize: none;
+  padding: 5px;
+  height: 75px;
+  font-family: sans-serif;
+
+  &:focus{
+    outline: 0;
+    border: 1px solid #FF6E14;
+  }
+  
+}
+
+.submit-label{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+  height: 35px;
+}
+
+.submit-label-disabled{
+  color: #C1C1C1;
+
+}
+
+.new-message-submit{
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  text-align: right;
+
+  .new-message-control{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #A1A1A1;
+    float: left;
+  }
+}
+
+.submit-button{
+  text-align: center;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.submit-button-enabled{
+  background-color: white;
+  border: 1px solid #FF6E14;
+  fill: #FF6E14;
+  transition: all .2s ease-out;
+  &:hover{
+    cursor: pointer;
+    background: #FF6E14;
+    fill: white;
+  }
+}
+
+.submit-button-disabled{
+  background-color: #ededed;
+  border: 1px solid #E5E5E5;
+  fill: #e5e5e5;
+}
