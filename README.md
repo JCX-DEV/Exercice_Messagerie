@@ -16,10 +16,19 @@ Dépendances ajoutées :
 
 ## Projet :
 
+:memo: **Sujet :**
+
 L'interface liste des messages. Chaque liste est associée à une annonce fictive. On peut donc changer la liste en changeant l'annonce.
 Sur la même interface, il est possible de remplir un message en précisant à l'aide d'un toggle s'il doit être privé ou public.
 Les messages privés sont affichés sous condition (utilisateur connecté = auteur de l'annonce, on peut modifier l'utilisateur connecté), et le rendu est différent d'un message public. 
 L'approche API centrique a été faite en simulant une API (MOCK_API/mock_api) qui retourne des données statiques (MOCK_API/DATABASE) pour dialoguer avec le front.
+
+:dart: **Dans cet exercice :**
+- Atomic design
+- Class components
+- Responsive css
+- css avec SaSS
+- Utilisation du local storage
 
 ## Documentation du code source :
 
